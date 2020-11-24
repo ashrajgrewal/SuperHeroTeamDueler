@@ -6,3 +6,5 @@ class Dog:
         print("dog initialized!")
     def bark(self):
         print("Woof!")
+    def sit(self):
+        print("sit")
