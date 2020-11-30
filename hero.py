@@ -12,13 +12,11 @@ class Hero:
     # always the same as their starting health (no damage taken yet!)
         self.current_health = starting_health
 
-if __name__ == "__main__":
-    # If you run this file from the terminal
-    # this block is executed.
-    my_hero = Hero("Grace Hopper", 200)
-    print(my_hero.name)
-    print(my_hero.current_health)
-
     def fight(self, opponent):
-        fighters = [self, opponent]
-        print(f'The winner is {random.choice(fighters)} !')
+        fighters = [hero1, hero2]
+        print(f'The winner is {random.choice(fighters).name}!')
+
+if __name__ == "__main__":
+    hero1 = Hero("Wonder Woman")
+    hero2 = Hero("Dumbledore")
+    hero1.fight(hero2)
