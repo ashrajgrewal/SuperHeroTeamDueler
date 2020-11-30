@@ -1,4 +1,5 @@
 #Superhero Team Dueler Ashraj Grewal
+import random
 class Hero:
     # We want our hero to have a default "starting_health",
     # so we can set that in the function header.
@@ -17,3 +18,7 @@ if __name__ == "__main__":
     my_hero = Hero("Grace Hopper", 200)
     print(my_hero.name)
     print(my_hero.current_health)
+
+    def fight(self, opponent):
+        fighters = [self, opponent]
+        print(f'The winner is {random.choice(fighters)} !')
