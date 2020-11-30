@@ -87,3 +87,6 @@ if __name__ == "__main__":
     weapon = Weapon("Lasso of Truth", 90)
     hero.add_weapon(weapon)
     print(hero.attack())
+
+
+    #COULDN'T INSTALL PYTEST
